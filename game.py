@@ -1,7 +1,7 @@
 from goblin import Goblin
 from hero import Hero
 
-ARENA_NAME = "The Cirle Arena"
+ARENA_NAME = "⚔️The Cirle Arena🏰"
 
 def battle(hero: Hero, enemy):
     while hero.is_alive() and enemy.is_alive():
@@ -13,16 +13,17 @@ def battle(hero: Hero, enemy):
             hero.take_damage(enemy_damage)
 
     if hero.is_alive():
-        print(f"{hero.name} wins!")
+        print(f"{hero.name} wins it all!😍👌😁")
     else:
-        print(f"{enemy.name} wins!")
+        print(f"{enemy.name} wins it all!😒🤦‍♀️")
 
 
 def main():
     """Open the arena and introduce its first opponent."""
     print(f"Welcome to {ARENA_NAME}!")
     print("༼ ᓄºل͟º ༽ᓄ   ᕦ(ò_óˇ)ᕤ")
-    print("The gates are opening...")
+    print("The gates are opening with the opponent's enemy😯...")
+    print("Wow guys this so dramatic omg run")
     
 
     goblin = Goblin("Gubble")
